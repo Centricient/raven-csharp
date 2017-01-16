@@ -30,8 +30,6 @@
 
 using System;
 
-using NUnit.Framework.Constraints;
-
 namespace SharpRaven.UnitTests.Utilities
 {
     public static class TestHelper

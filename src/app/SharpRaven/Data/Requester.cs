@@ -32,9 +32,8 @@ using System;
 using System.IO;
 using System.Net;
 
-using Newtonsoft.Json;
-
 using SharpRaven.Utilities;
+using Newtonsoft.Json;
 
 #if net35
 using JObject = Newtonsoft.Json.Linq.JObject;

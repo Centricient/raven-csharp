@@ -28,24 +28,16 @@
 
 #endregion
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
 #if !net35
 using System.Dynamic;
 #endif
-using System.IO;
-using System.Text;
 
-using Newtonsoft.Json;
 
-using NUnit.Framework;
 
-using SharpRaven.Data;
 
 namespace SharpRaven.UnitTests.Data
 {
-    #if (!net35)
+#if (!net35)
     [TestFixture]
     public class HttpRequestBodyConverterTests
     {
@@ -127,5 +119,5 @@ namespace SharpRaven.UnitTests.Data
             Assert.That(converted, Is.EqualTo("Hello world!"));
         }
     }
-    #endif
+#endif
 }

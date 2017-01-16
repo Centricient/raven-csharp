@@ -28,9 +28,10 @@
 
 #endregion
 
+using Newtonsoft.Json;
 using System;
 
-using Newtonsoft.Json;
+
 
 namespace SharpRaven.Data
 {

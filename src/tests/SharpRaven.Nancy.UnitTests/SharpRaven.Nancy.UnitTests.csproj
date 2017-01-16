@@ -112,10 +112,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\SharpRaven.Nancy\SharpRaven.Nancy.csproj">
-      <Project>{abe22746-6eeb-4970-a608-c02bc3b8bda3}</Project>
-      <Name>SharpRaven.Nancy</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\app\SharpRaven\SharpRaven.csproj">
       <Project>{cc80a2e1-ae39-44de-8da3-4eef42f90fb1}</Project>
       <Name>SharpRaven</Name>

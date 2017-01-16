@@ -36,6 +36,8 @@ using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+using Newtonsoft.Json.Serialization;
+
 using SharpRaven.Serialization;
 using SharpRaven.Utilities;
 
